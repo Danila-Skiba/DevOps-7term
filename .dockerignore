@@ -1,0 +1,10 @@
+.git
+.agents
+.codex
+.memory-bank
+swarm-report
+AGENTS.md
+out
+node_modules
+npm-debug.log*
+.DS_Store

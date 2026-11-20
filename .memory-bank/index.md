@@ -1,18 +1,8 @@
 # Memory Bank
 
-## Verified context
+Проект: лабораторные работы по DevOps.
+Одно приложение последовательно развивается в нескольких работах.
 
-- Repository: `DevOps-7term`.
-- At harness installation, the working tree contained only `.git`; no product source,
-  stack manifests, test commands, local settings or existing `AGENTS.md` were present.
-- Purpose, architecture, stack and deployment targets: not yet established.
-- Codex skills: `.agents/skills/{plan,build,review,debug}/SKILL.md`.
-- Shared workflow and role delegation rules: `../AGENTS.md`.
-- Plans and reports: `../swarm-report/`.
-- Installation provenance and checks: `../swarm-report/harness-install.md`.
-
-## Maintenance
-
-Read relevant source files before treating context as current. Add durable architectural
-decisions here or link focused context files as real project information becomes available.
-Keep task execution details in `swarm-report/`; never store secrets in either directory.
+## Лабораторные
+- [Лаба 1: Docker и Playwright-скрапер](lab-1.md)
+- [Лаба 1: решения и статус реализации](lab-1-implementation.md)
