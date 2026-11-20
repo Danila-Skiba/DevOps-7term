@@ -6,6 +6,11 @@
   against the repository; record unknown facts as unknown rather than inventing them.
 - Store durable project context and decisions in `.memory-bank/`. Keep its index small
   and link only existing files. Never store credentials or sensitive command output.
+- After completing a milestone, update any changed project context, implementation
+  status, and durable decisions in `.memory-bank/`. Preserve the requirements of
+  previous labs, keep each lab's requirements in its own linked file, and distinguish
+  requirements from implementation decisions. Keep detailed plans and verification
+  results in `swarm-report/`; do not rewrite context for every small code edit.
 - Store task plans and reports in `swarm-report/`: `<slug>-plan.md`, `<slug>-build.md`,
   `<slug>-review.md`, `<slug>-debug.md`. Use short kebab-case slugs. Preserve existing
   reports; append a dated attempt or choose a distinct slug for an unrelated task.
